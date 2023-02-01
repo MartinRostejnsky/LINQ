@@ -11,8 +11,8 @@ namespace LINQ
     {
         public List<Country> countries = new List<Country>
         {
-             new Country{ Name = "Cum", Continent = Continent.Asia, Population = 1406357120, LandArea = 9388211, FertilityRate = 1.7, GDP = 14860775 },
-             new Country{ Name = "Chocolate", Continent = Continent.Asia, Population = 1406357120, LandArea = 9388211, FertilityRate = 1.7, GDP = 14860775 },
+             new Country{ Name = "Cum", Continent = Continent.Asia, Population = 1406357120, LandArea = 9388211, FertilityRate = 1.7, GDP = 14860775 }, //sus
+             new Country{ Name = "Chocolate", Continent = Continent.Asia, Population = 1406357120, LandArea = 9388211, FertilityRate = 1.7, GDP = 14860775 }, //sus
              new Country{ Name = "China", Continent = Continent.Asia, Population = 1406357120, LandArea = 9388211, FertilityRate = 1.7, GDP = 14860775 },
              new Country{ Name = "India", Continent = Continent.Asia, Population = 1380004385, LandArea = 2973190, FertilityRate = 2.2, GDP = 2592583 },
              new Country{ Name = "United States", Continent = Continent.NorthAmerica, Population = 331002651, LandArea = 9147420, FertilityRate = 1.8, GDP = 20807269 },
