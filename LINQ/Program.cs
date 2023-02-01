@@ -84,9 +84,14 @@ foreach (var c in Top5DenseQuery)
 }
 
 Console.WriteLine("------------------------------------------------------");
-
-var StartsWithCQuery = data.countries.Where((c) => c.Name.StartsWith("C"));
+var StartsWithCQuery = data.countries.Where(c => c.Name.StartsWith("C"));
 foreach (var c in StartsWithCQuery)
+{
+    Console.WriteLine(c);
+}
+Console.WriteLine("------------------------------------------------------");
+var StartsWithCQuery2 = from c in data.countries where c.Name.StartsWith("C") select c;
+foreach (var c in StartsWithCQuery2)
 {
     Console.WriteLine(c);
 }
